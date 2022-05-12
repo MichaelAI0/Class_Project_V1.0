@@ -9,7 +9,7 @@ import { HomeComponent } from './home/home.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { FooterComponent } from './footer/footer.component';
 import { PublishedComponent } from './published/published.component';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { CitationComponent } from './citation/citation.component';
 
 
@@ -30,6 +30,7 @@ import { CitationComponent } from './citation/citation.component';
     FormsModule,
     AppRoutingModule,
     HttpClientModule,
+    ReactiveFormsModule,
   ],
   providers: [
 
